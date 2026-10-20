@@ -1,0 +1,16 @@
+# Root gitignore
+node_modules/
+.env
+*.log
+
+# LeadSyncApp specific (handled in its own gitignore too)
+LeadSyncApp/node_modules/
+LeadSyncApp/android/.gradle/
+LeadSyncApp/android/build/
+LeadSyncApp/android/app/build/
+LeadSyncApp/ios/build/
+LeadSyncApp/ios/Pods/
+LeadSyncApp/.bundle/
+
+# Backend
+backend/node_modules/
