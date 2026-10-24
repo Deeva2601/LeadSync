@@ -1,10 +1,11 @@
-# Root gitignore
 node_modules/
 .env
 *.log
+.expo/
 
-# LeadSyncApp specific (handled in its own gitignore too)
+# LeadSyncApp specific
 LeadSyncApp/node_modules/
+LeadSyncApp/.expo/
 LeadSyncApp/android/.gradle/
 LeadSyncApp/android/build/
 LeadSyncApp/android/app/build/
@@ -14,3 +15,4 @@ LeadSyncApp/.bundle/
 
 # Backend
 backend/node_modules/
+LeadSyncApp/android/app/debug.keystore
